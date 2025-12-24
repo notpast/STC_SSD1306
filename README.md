@@ -39,7 +39,7 @@ This project is a library and example application that **dynamically generates 7
 - Ana pencerede bulunan derleme butonuna (⚙️ veya Build) tıklayarak projeyi derleyin.
 
 
-###Compiler Steps
+### Compiler Steps
 - Download the project and open it in CodeBlocks IDE.
 - Right-click on the project file.
 - From the context menu, select 'Build Options...'.
