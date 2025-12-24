@@ -32,19 +32,19 @@ This project is a library and example application that **dynamically generates 7
 
 
 ### Derleme Adımları
-- **Projeyi indirin ve CodeBlocks IDE'sini açın.
-- **Proje dosyası üzerine sağ tıklayın.
-- **Açılan menüden 'Build Options...' seçeneğini seçin.
-- **Açılan pencereden derleyici olarak 'Small Device C Compiler' seçin.
-- **Ana pencerede bulunan derleme butonuna (⚙️ veya Build) tıklayarak projeyi derleyin.
+- Projeyi indirin ve CodeBlocks IDE'sini açın.
+- Proje dosyası üzerine sağ tıklayın.
+- Açılan menüden 'Build Options...' seçeneğini seçin.
+- Açılan pencereden derleyici olarak 'Small Device C Compiler' seçin.
+- Ana pencerede bulunan derleme butonuna (⚙️ veya Build) tıklayarak projeyi derleyin.
 
 
 ###Compiler Steps
-- **Download the project and open it in CodeBlocks IDE.
-- **Right-click on the project file.
-- **From the context menu, select 'Build Options...'.
-- **In the new window, choose 'Small Device C Compiler' as the compiler.
-- **Click the build button (⚙️ or Build) in the main window to compile the project.
+- Download the project and open it in CodeBlocks IDE.
+- Right-click on the project file.
+- From the context menu, select 'Build Options...'.
+- In the new window, choose 'Small Device C Compiler' as the compiler.
+- Click the build button (⚙️ or Build) in the main window to compile the project.
 
 
 ---
