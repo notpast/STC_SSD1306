@@ -68,5 +68,4 @@ This project is a library and example application that **dynamically generates 7
 
 ---
 
-
-[<img src="https://i.ytimg.com/vi/DcMDoaKBVzcmw3pS/maxresdefault.jpg" width="0%">](https://youtube.com/shorts/DC_wp1Rv_Vc?si=DcMDoaKBVzcmw3pS "Video")
+[<img src="https://i.ytimg.com/vi/DC_wp1Rv_Vc/maxres2.jpg" width="0%">](https://youtube.com/shorts/DC_wp1Rv_Vc?si=DcMDoaKBVzcmw3pS "Video")
