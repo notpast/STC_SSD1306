@@ -52,7 +52,7 @@ uint8_t Print_Number(uint8_t x,uint8_t y,uint8_t size,uint16_t number){
     // Print switch
     // 0: draw necessary digits
     // 1: draw 5 digits (Max 16 bit =65535 : 5 digits)
-    uint8_t  print_sw =1;
+    uint8_t  print_sw =0;
     uint16_t div_dec  =10000;
 
     pos_x = x;
@@ -106,14 +106,72 @@ void main(void) {
     // Counter start with a number
     uint16_t counter = 27654;
 
-    while(1){
+    uint16_t limit= counter + 10;
+
+    // Demo step 1
+    while(counter<limit){
         // Print 5x8 text
-        Print_Ascii_5x8(0,56," SEVEN-SEGMENT TEST");
+        Print_Ascii_5x8(0,56," SEVEN-SEGMENT DEMO");
         Print_Ascii_5x8(0,48," ------------------");
 
         // Print seven-segment number
         Print_Number(pos_x,pos_y,size,counter);
 
+        counter++;
+    }
+
+
+    // Demo step 2
+    limit= counter + 150;
+    // Clear display
+    SSD1306_Clear();
+    while(counter<limit){
+        // Line 1
+        Print_Number(0,0, 24,counter);
+        // Line 2
+        Print_Number(0,32,24,counter + 11111);
+        counter++;
+    }
+
+
+    // Demo step 2
+    limit= counter + 150;
+    // Clear display
+    SSD1306_Clear();
+    while(counter<limit){
+        // Line 1
+        Print_Number(0,0,12,counter);
+        // Line 2
+        Print_Number(0,16,12,counter + 12345 );
+        // Line 3
+        Print_Number(0,32,12,counter + 11111);
+        // Line 4
+        Print_Number(0,48,12,counter + 33333);
+        counter++;
+    }
+
+
+    // Demo step 3
+    limit= counter + 50;
+    // Clear display
+    SSD1306_Clear();
+    while(counter<limit){
+        // Line 1
+        Print_Number(0,0, 56, counter%100);
+        // Line 2
+        Print_Number(84,0,22, (counter+23)%100);
+        // Line 3
+        Print_Number(84,28,22,(counter+45)%100);
+        counter++;
+    }
+
+    // Demo step 2
+    counter=80;
+    // Clear display
+    SSD1306_Clear();
+    while(counter<200){
+        // Line 1
+        Print_Number(0,0,64, counter%1000);
         counter++;
     }
 

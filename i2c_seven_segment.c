@@ -176,9 +176,9 @@ void Set_Segment_Size(SEGMENT_SIZE * segment_size,uint8_t size) {
 
     //SEGMET G
     segment_size[SEG_G].min_x=0;
-    segment_size[SEG_G].min_y=seg_height- half_tkn;
+    segment_size[SEG_G].min_y=seg_height - half_tkn;
     segment_size[SEG_G].max_x=seg_width;
-    segment_size[SEG_G].max_y=seg_height+(seg_tkn-half_tkn);
+    segment_size[SEG_G].max_y=seg_height + seg_tkn - half_tkn;
 
     //SEGMET DP
     segment_size[SEG_DP].min_x=seg_width+1;
@@ -253,13 +253,15 @@ uint16_t Segment_Render(uint8_t px,uint8_t py,uint8_t size,uint8_t digit) {
 
     if(seg_tkn<1) seg_tkn=1;
 
+    uint8_t half_tkn=seg_tkn/2;
+
     // Arrow boundary boxes x axis
     uint8_t min_x[2]= {0,width-seg_tkn};
     uint8_t max_x[2]= {seg_tkn,width};
 
     // Arrow boundary boxes y axis
-    uint8_t min_y[3]= {0,width-seg_tkn/2,size-seg_tkn};
-    uint8_t max_y[3]= {seg_tkn,width+seg_tkn/2,size};
+    uint8_t min_y[3]= {0,width-half_tkn,size-seg_tkn};
+    uint8_t max_y[3]= {seg_tkn,width + seg_tkn - half_tkn,size};
 
     // arrow_boundary_x : 3 different value if it's lef 1, right 2, if out of x boundary 0
     // arrow_boundary_y : 4 different value if it's bootom 1, middle 2, top 3, if out of y boundary 0

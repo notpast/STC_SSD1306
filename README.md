@@ -67,5 +67,7 @@ This project is a library and example application that **dynamically generates 7
 |  SDA     |  P3.3         | I²C Data         |
 
 ---
+<img width="720" height="1280" alt="vlcsnap-2025-12-25-02h29m42s680" src="https://github.com/user-attachments/assets/f2b6361c-1cbe-4617-ac4d-a96cd92d88dd" />
 
-[<img src="https://i.ytimg.com/vi/DC_wp1Rv_Vc/maxres2.jpg" width="0%">](https://youtube.com/shorts/DC_wp1Rv_Vc?si=DcMDoaKBVzcmw3pS "Video")
+
+Video https://youtube.com/shorts/DC_wp1Rv_Vc?si=8D2Y7Zv9Py_LzmPn

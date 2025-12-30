@@ -1,12 +1,12 @@
-ASxxxx Linker V05.50.4-SDLD,  page 1.
+ASxxxx Linker V03.00/V05.40 + sdld,  page 1.
 Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
 CABS                                00000000    00000000 =           0. bytes (ABS,CON,CODE)
 
-         Value  Global                             Global Defined In Module
-         -----  --------------------------------   ------------------------
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
 C:   00000000  l_BIT_BANK                      
 C:   00000000  l_CABS                          
 C:   00000000  l_GSINIT                        
@@ -57,15 +57,15 @@ C:   00000022  l_GSINIT3
 C:   0000002A  l_GSINIT4                       
 C:   0000004C  l_HOME                          
 C:   0000004C  s_GSINIT0                       
-ASxxxx Linker V05.50.4-SDLD,  page 2.
+ASxxxx Linker V03.00/V05.40 + sdld,  page 2.
 Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
 CABS                                00000000    00000000 =           0. bytes (ABS,CON,CODE)
 
-         Value  Global                             Global Defined In Module
-         -----  --------------------------------   ------------------------
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
 C:   0000004F  s_GSINIT1                       
 C:   0000004F  s_GSINIT2                       
 C:   00000059  s_GSINIT3                       
@@ -80,19 +80,19 @@ C:   000000A8  s_CSEG
 C:   000000DF  l_SSEG                          
 C:   00000100  l_IRAM                          
 C:   0000021F  l_CONST                         
-C:   00000ED1  l_CSEG                          
-C:   00000F79  s_CONST                         
-C:   00001198  s_XINIT                         
+C:   00001145  l_CSEG                          
+C:   000011ED  s_CONST                         
+C:   0000140C  s_XINIT                         
 
-ASxxxx Linker V05.50.4-SDLD,  page 3.
+ASxxxx Linker V03.00/V05.40 + sdld,  page 3.
 Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
 .  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
 
-         Value  Global                             Global Defined In Module
-         -----  --------------------------------   ------------------------
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
      00000000  .__.ABS.                           _startup
      00000080  _P0                                stc_i2c
      00000080  _P00                               stc_i2c
@@ -143,15 +143,15 @@ Area                                    Addr        Size        Decimal Bytes (A
      00000092  _P1M0                              stc_i2c
      00000092  _P1_2                              main
      00000093  _P0M1                              stc_i2c
-ASxxxx Linker V05.50.4-SDLD,  page 4.
+ASxxxx Linker V03.00/V05.40 + sdld,  page 4.
 Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
 .  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
 
-         Value  Global                             Global Defined In Module
-         -----  --------------------------------   ------------------------
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
      00000093  _P13                               stc_i2c
      00000093  _P1_3                              main
      00000094  _P0M0                              stc_i2c
@@ -203,15 +203,15 @@ Area                                    Addr        Size        Decimal Bytes (A
      000000A8  _IE                                stc_i2c
      000000A9  _ET0                               stc_i2c
      000000A9  _SADDR                             stc_i2c
-ASxxxx Linker V05.50.4-SDLD,  page 5.
+ASxxxx Linker V03.00/V05.40 + sdld,  page 5.
 Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
 .  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
 
-         Value  Global                             Global Defined In Module
-         -----  --------------------------------   ------------------------
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
      000000AA  _EX1                               stc_i2c
      000000AA  _WKTCL                             stc_i2c
      000000AB  _ET1                               stc_i2c
@@ -263,15 +263,15 @@ Area                                    Addr        Size        Decimal Bytes (A
      000000BA  _PX1                               stc_i2c
      000000BA  _P_SW2                             stc_i2c
      000000BB  _PT1                               stc_i2c
-ASxxxx Linker V05.50.4-SDLD,  page 6.
+ASxxxx Linker V03.00/V05.40 + sdld,  page 6.
 Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
 .  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
 
-         Value  Global                             Global Defined In Module
-         -----  --------------------------------   ------------------------
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
      000000BC  _ADC_CONTR                         stc_i2c
      000000BC  _PS                                stc_i2c
      000000BD  _ADC_RES                           stc_i2c
@@ -323,15 +323,15 @@ Area                                    Addr        Size        Decimal Bytes (A
      000000D3  _T4L                               stc_i2c
      000000D3  _TL4                               stc_i2c
      000000D4  _RS1                               stc_i2c
-ASxxxx Linker V05.50.4-SDLD,  page 7.
+ASxxxx Linker V03.00/V05.40 + sdld,  page 7.
 Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
 .  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
 
-         Value  Global                             Global Defined In Module
-         -----  --------------------------------   ------------------------
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
      000000D4  _T3H                               stc_i2c
      000000D4  _TH3                               stc_i2c
      000000D5  _F0                                stc_i2c
@@ -383,15 +383,15 @@ Area                                    Addr        Size        Decimal Bytes (A
      000000F2  _PCA_PWM0                          stc_i2c
      000000F3  _PCA_PWM1                          stc_i2c
      000000F4  _PCA_PWM2                          stc_i2c
-ASxxxx Linker V05.50.4-SDLD,  page 8.
+ASxxxx Linker V03.00/V05.40 + sdld,  page 8.
 Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
 .  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
 
-         Value  Global                             Global Defined In Module
-         -----  --------------------------------   ------------------------
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
      000000F5  _B_5                               _gptrget
      000000F5  _IAP_TPS                           stc_i2c
      000000F6  _B_6                               _gptrget
@@ -443,15 +443,15 @@ Area                                    Addr        Size        Decimal Bytes (A
      0000FB14  _COM4_DA_L                         stc_i2c
      0000FB15  _COM5_DA_L                         stc_i2c
      0000FB16  _COM6_DA_L                         stc_i2c
-ASxxxx Linker V05.50.4-SDLD,  page 9.
+ASxxxx Linker V03.00/V05.40 + sdld,  page 9.
 Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
 .  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
 
-         Value  Global                             Global Defined In Module
-         -----  --------------------------------   ------------------------
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
      0000FB17  _COM7_DA_L                         stc_i2c
      0000FB18  _COM0_DA_H                         stc_i2c
      0000FB19  _COM1_DA_H                         stc_i2c
@@ -503,15 +503,15 @@ Area                                    Addr        Size        Decimal Bytes (A
      0000FB57  _TSTH03L                           stc_i2c
      0000FB58  _TSTH04                            stc_i2c
      0000FB58  _TSTH04H                           stc_i2c
-ASxxxx Linker V05.50.4-SDLD,  page 10.
+ASxxxx Linker V03.00/V05.40 + sdld,  page 10.
 Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
 .  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
 
-         Value  Global                             Global Defined In Module
-         -----  --------------------------------   ------------------------
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
      0000FB59  _TSTH04L                           stc_i2c
      0000FB5A  _TSTH05                            stc_i2c
      0000FB5A  _TSTH05H                           stc_i2c
@@ -563,15 +563,15 @@ Area                                    Addr        Size        Decimal Bytes (A
      0000FC18  _PWM31T1                           stc_i2c
      0000FC18  _PWM31T1H                          stc_i2c
      0000FC19  _PWM31T1L                          stc_i2c
-ASxxxx Linker V05.50.4-SDLD,  page 11.
+ASxxxx Linker V03.00/V05.40 + sdld,  page 11.
 Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
 .  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
 
-         Value  Global                             Global Defined In Module
-         -----  --------------------------------   ------------------------
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
      0000FC1A  _PWM31T2                           stc_i2c
      0000FC1A  _PWM31T2H                          stc_i2c
      0000FC1B  _PWM31T2L                          stc_i2c
@@ -623,15 +623,15 @@ Area                                    Addr        Size        Decimal Bytes (A
      0000FC4A  _PWM37T2                           stc_i2c
      0000FC4A  _PWM37T2H                          stc_i2c
      0000FC4B  _PWM37T2L                          stc_i2c
-ASxxxx Linker V05.50.4-SDLD,  page 12.
+ASxxxx Linker V03.00/V05.40 + sdld,  page 12.
 Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
 .  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
 
-         Value  Global                             Global Defined In Module
-         -----  --------------------------------   ------------------------
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
      0000FC4C  _PWM37CR                           stc_i2c
      0000FC4D  _PWM37HLD                          stc_i2c
      0000FC50  _PWM4C                             stc_i2c
@@ -683,15 +683,15 @@ Area                                    Addr        Size        Decimal Bytes (A
      0000FC83  _PWM44T2L                          stc_i2c
      0000FC84  _PWM44CR                           stc_i2c
      0000FC85  _PWM44HLD                          stc_i2c
-ASxxxx Linker V05.50.4-SDLD,  page 13.
+ASxxxx Linker V03.00/V05.40 + sdld,  page 13.
 Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
 .  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
 
-         Value  Global                             Global Defined In Module
-         -----  --------------------------------   ------------------------
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
      0000FC88  _PWM45T1                           stc_i2c
      0000FC88  _PWM45T1H                          stc_i2c
      0000FC89  _PWM45T1L                          stc_i2c
@@ -743,15 +743,15 @@ Area                                    Addr        Size        Decimal Bytes (A
      0000FCC1  _PWM52T1L                          stc_i2c
      0000FCC2  _PWM52T2                           stc_i2c
      0000FCC2  _PWM52T2H                          stc_i2c
-ASxxxx Linker V05.50.4-SDLD,  page 14.
+ASxxxx Linker V03.00/V05.40 + sdld,  page 14.
 Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
 .  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
 
-         Value  Global                             Global Defined In Module
-         -----  --------------------------------   ------------------------
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
      0000FCC3  _PWM52T2L                          stc_i2c
      0000FCC4  _PWM52CR                           stc_i2c
      0000FCC5  _PWM52HLD                          stc_i2c
@@ -803,15 +803,15 @@ Area                                    Addr        Size        Decimal Bytes (A
      0000FCF5  _MD4                               stc_i2c
      0000FCF6  _ARCON                             stc_i2c
      0000FCF7  _OPCON                             stc_i2c
-ASxxxx Linker V05.50.4-SDLD,  page 15.
+ASxxxx Linker V03.00/V05.40 + sdld,  page 15.
 Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
 .  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
 
-         Value  Global                             Global Defined In Module
-         -----  --------------------------------   ------------------------
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
      0000FD00  _P0INTE                            stc_i2c
      0000FD01  _P1INTE                            stc_i2c
      0000FD02  _P2INTE                            stc_i2c
@@ -863,15 +863,15 @@ Area                                    Addr        Size        Decimal Bytes (A
      0000FE06  _IRCDB                             stc_i2c
      0000FE08  _X32KCR                            stc_i2c
      0000FE10  _P0PU                              stc_i2c
-ASxxxx Linker V05.50.4-SDLD,  page 16.
+ASxxxx Linker V03.00/V05.40 + sdld,  page 16.
 Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
 .  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
 
-         Value  Global                             Global Defined In Module
-         -----  --------------------------------   ------------------------
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
      0000FE11  _P1PU                              stc_i2c
      0000FE12  _P2PU                              stc_i2c
      0000FE13  _P3PU                              stc_i2c
@@ -923,15 +923,15 @@ Area                                    Addr        Size        Decimal Bytes (A
      0000FE69  _INIMONTH                          stc_i2c
      0000FE6A  _INIDAY                            stc_i2c
      0000FE6B  _INIHOUR                           stc_i2c
-ASxxxx Linker V05.50.4-SDLD,  page 17.
+ASxxxx Linker V03.00/V05.40 + sdld,  page 17.
 Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
 .  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
 
-         Value  Global                             Global Defined In Module
-         -----  --------------------------------   ------------------------
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
      0000FE6C  _INIMIN                            stc_i2c
      0000FE6D  _INISEC                            stc_i2c
      0000FE6E  _INISSEC                           stc_i2c
@@ -983,15 +983,15 @@ Area                                    Addr        Size        Decimal Bytes (A
      0000FF20  _PWM02T1                           stc_i2c
      0000FF20  _PWM02T1H                          stc_i2c
      0000FF21  _PWM02T1L                          stc_i2c
-ASxxxx Linker V05.50.4-SDLD,  page 18.
+ASxxxx Linker V03.00/V05.40 + sdld,  page 18.
 Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
 .  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
 
-         Value  Global                             Global Defined In Module
-         -----  --------------------------------   ------------------------
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
      0000FF22  _PWM02T2                           stc_i2c
      0000FF22  _PWM02T2H                          stc_i2c
      0000FF23  _PWM02T2L                          stc_i2c
@@ -1043,15 +1043,15 @@ Area                                    Addr        Size        Decimal Bytes (A
      0000FF52  _PWM1CKS                           stc_i2c
      0000FF55  _PWM1IF                            stc_i2c
      0000FF56  _PWM1FDCR                          stc_i2c
-ASxxxx Linker V05.50.4-SDLD,  page 19.
+ASxxxx Linker V03.00/V05.40 + sdld,  page 19.
 Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
 .  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
 
-         Value  Global                             Global Defined In Module
-         -----  --------------------------------   ------------------------
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
      0000FF60  _PWM10T1                           stc_i2c
      0000FF60  _PWM10T1H                          stc_i2c
      0000FF61  _PWM10T1L                          stc_i2c
@@ -1103,15 +1103,15 @@ Area                                    Addr        Size        Decimal Bytes (A
      0000FF90  _PWM16T1                           stc_i2c
      0000FF90  _PWM16T1H                          stc_i2c
      0000FF91  _PWM16T1L                          stc_i2c
-ASxxxx Linker V05.50.4-SDLD,  page 20.
+ASxxxx Linker V03.00/V05.40 + sdld,  page 20.
 Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
 .  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
 
-         Value  Global                             Global Defined In Module
-         -----  --------------------------------   ------------------------
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
      0000FF92  _PWM16T2                           stc_i2c
      0000FF92  _PWM16T2H                          stc_i2c
      0000FF93  _PWM16T2L                          stc_i2c
@@ -1163,15 +1163,15 @@ Area                                    Addr        Size        Decimal Bytes (A
      0000FFC9  _PWM23T1L                          stc_i2c
      0000FFCA  _PWM23T2                           stc_i2c
      0000FFCA  _PWM23T2H                          stc_i2c
-ASxxxx Linker V05.50.4-SDLD,  page 21.
+ASxxxx Linker V03.00/V05.40 + sdld,  page 21.
 Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
 .  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
 
-         Value  Global                             Global Defined In Module
-         -----  --------------------------------   ------------------------
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
      0000FFCB  _PWM23T2L                          stc_i2c
      0000FFCC  _PWM23CR                           stc_i2c
      0000FFCD  _PWM23HLD                          stc_i2c
@@ -1208,62 +1208,62 @@ Area                                    Addr        Size        Decimal Bytes (A
      0000FFEC  _PWM27CR                           stc_i2c
      0000FFED  _PWM27HLD                          stc_i2c
 
-ASxxxx Linker V05.50.4-SDLD,  page 22.
+ASxxxx Linker V03.00/V05.40 + sdld,  page 22.
 Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
 BSEG_BYTES                          00000020    00000001 =           1. bytes (REL,CON)
 
-         Value  Global                             Global Defined In Module
-         -----  --------------------------------   ------------------------
-ASxxxx Linker V05.50.4-SDLD,  page 23.
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00/V05.40 + sdld,  page 23.
 Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
 REG_BANK_0                          00000000    00000008 =           8. bytes (REL,OVR)
 
-         Value  Global                             Global Defined In Module
-         -----  --------------------------------   ------------------------
-ASxxxx Linker V05.50.4-SDLD,  page 24.
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00/V05.40 + sdld,  page 24.
 Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
 DSEG                                00000000    00000080 =         128. bytes (REL,CON)
 
-         Value  Global                             Global Defined In Module
-         -----  --------------------------------   ------------------------
-ASxxxx Linker V05.50.4-SDLD,  page 25.
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00/V05.40 + sdld,  page 25.
 Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
 OSEG                                0000001A    00000006 =           6. bytes (REL,OVR)
 
-         Value  Global                             Global Defined In Module
-         -----  --------------------------------   ------------------------
-ASxxxx Linker V05.50.4-SDLD,  page 26.
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00/V05.40 + sdld,  page 26.
 Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
 SSEG                                00000021    000000DF =         223. bytes (REL,OVR)
 
-         Value  Global                             Global Defined In Module
-         -----  --------------------------------   ------------------------
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
      00000021  __start__stack                     main
 
-ASxxxx Linker V05.50.4-SDLD,  page 27.
+ASxxxx Linker V03.00/V05.40 + sdld,  page 27.
 Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
 XSEG                                00000001    0000006B =         107. bytes (REL,CON,XDATA)
 
-         Value  Global                             Global Defined In Module
-         -----  --------------------------------   ------------------------
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
 D:   00000001  _Print_Ascii_5x8_PARM_2            ascii_font
 D:   00000002  _Print_Ascii_5x8_PARM_3            ascii_font
 D:   00000007  _Arrow_Direction_PARM_2            i2c_seven_segment
@@ -1284,119 +1284,119 @@ D:   0000005F  __divuint_PARM_2                   _divuint
 D:   00000066  __gptrput_PARM_2                   _gptrput
 D:   00000067  __moduint_PARM_2                   _moduint
 
-ASxxxx Linker V05.50.4-SDLD,  page 28.
+ASxxxx Linker V03.00/V05.40 + sdld,  page 28.
 Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
 HOME                                00000000    0000004C =          76. bytes (REL,CON,CODE)
 
-         Value  Global                             Global Defined In Module
-         -----  --------------------------------   ------------------------
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
 C:   00000008  sdcc_atomic_exchange_rollback_st   main
 C:   0000002F  sdcc_atomic_exchange_gptr_impl     main
 C:   0000002F  sdcc_atomic_exchange_rollback_en   main
 C:   0000003F  sdcc_atomic_compare_exchange_gpt   main
 C:   00000049  __sdcc_program_startup             main
 
-ASxxxx Linker V05.50.4-SDLD,  page 29.
+ASxxxx Linker V03.00/V05.40 + sdld,  page 29.
 Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
 GSINIT0                             0000004C    00000003 =           3. bytes (REL,CON,CODE)
 
-         Value  Global                             Global Defined In Module
-         -----  --------------------------------   ------------------------
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
 C:   0000004C  __sdcc_gsinit_startup              
 
-ASxxxx Linker V05.50.4-SDLD,  page 30.
+ASxxxx Linker V03.00/V05.40 + sdld,  page 30.
 Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
 GSINIT2                             0000004F    0000000A =          10. bytes (REL,CON,CODE)
 
-         Value  Global                             Global Defined In Module
-         -----  --------------------------------   ------------------------
-ASxxxx Linker V05.50.4-SDLD,  page 31.
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00/V05.40 + sdld,  page 31.
 Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
 GSINIT3                             00000059    00000022 =          34. bytes (REL,CON,CODE)
 
-         Value  Global                             Global Defined In Module
-         -----  --------------------------------   ------------------------
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
 C:   00000059  __mcs51_genXINIT                   
 
-ASxxxx Linker V05.50.4-SDLD,  page 32.
+ASxxxx Linker V03.00/V05.40 + sdld,  page 32.
 Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
 GSINIT4                             0000007B    0000002A =          42. bytes (REL,CON,CODE)
 
-         Value  Global                             Global Defined In Module
-         -----  --------------------------------   ------------------------
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
 C:   0000007B  __mcs51_genRAMCLEAR                
 C:   00000081  __mcs51_genXRAMCLEAR               
 
-ASxxxx Linker V05.50.4-SDLD,  page 33.
+ASxxxx Linker V03.00/V05.40 + sdld,  page 33.
 Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
 GSFINAL                             000000A5    00000003 =           3. bytes (REL,CON,CODE)
 
-         Value  Global                             Global Defined In Module
-         -----  --------------------------------   ------------------------
-ASxxxx Linker V05.50.4-SDLD,  page 34.
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00/V05.40 + sdld,  page 34.
 Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-CSEG                                000000A8    00000ED1 =        3793. bytes (REL,CON,CODE)
+CSEG                                000000A8    00001145 =        4421. bytes (REL,CON,CODE)
 
-         Value  Global                             Global Defined In Module
-         -----  --------------------------------   ------------------------
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
 C:   000000A8  _Print_Ascii_5x8                   ascii_font
 C:   00000170  _Arrow_Direction                   i2c_seven_segment
 C:   000001D5  _Set_Segment_Size                  i2c_seven_segment
-C:   000004AD  _Check_Arrow_Direction             i2c_seven_segment
-C:   0000058D  _Segment_Render                    i2c_seven_segment
-C:   0000094C  _Print_Number                      main
-C:   00000A56  _main                              main
-C:   00000AD2  _SSD1306_Write_Command             ssd1306
-C:   00000AF0  _SSD1306_Write_Data                ssd1306
-C:   00000B0E  _SSD1306_Init                      ssd1306
-C:   00000BC2  _SSD1306_Power                     ssd1306
-C:   00000BDD  _SSD1306_Clear                     ssd1306
-C:   00000C22  _SSD1306_Draw_Pixels               ssd1306
-C:   00000C98  _I2C_Init                          stc_i2c
-C:   00000D4E  _Delay_ms                          stc_i2c
-C:   00000D9C  _I2C_Start                         stc_i2c
-C:   00000DA5  _I2C_Stop                          stc_i2c
-C:   00000DAE  _I2C_Send_Start_Byte               stc_i2c
-C:   00000DDA  _I2C_Send_Byte                     stc_i2c
-C:   00000E06  __divuint                          _divuint
-C:   00000E93  __gptrput                          _gptrput
-C:   00000EAE  __moduint                          _moduint
-C:   00000F59  __gptrget                          _gptrget
-C:   00000F75  ___sdcc_external_startup           _startup
-ASxxxx Linker V05.50.4-SDLD,  page 35.
+C:   000004A7  _Check_Arrow_Direction             i2c_seven_segment
+C:   0000059B  _Segment_Render                    i2c_seven_segment
+C:   00000957  _Print_Number                      main
+C:   00000A61  _main                              main
+C:   00000D46  _SSD1306_Write_Command             ssd1306
+C:   00000D64  _SSD1306_Write_Data                ssd1306
+C:   00000D82  _SSD1306_Init                      ssd1306
+C:   00000E36  _SSD1306_Power                     ssd1306
+C:   00000E51  _SSD1306_Clear                     ssd1306
+C:   00000E96  _SSD1306_Draw_Pixels               ssd1306
+C:   00000F0C  _I2C_Init                          stc_i2c
+C:   00000FC2  _Delay_ms                          stc_i2c
+C:   00001010  _I2C_Start                         stc_i2c
+C:   00001019  _I2C_Stop                          stc_i2c
+C:   00001022  _I2C_Send_Start_Byte               stc_i2c
+C:   0000104E  _I2C_Send_Byte                     stc_i2c
+C:   0000107A  __divuint                          _divuint
+C:   00001107  __gptrput                          _gptrput
+C:   00001122  __moduint                          _moduint
+C:   000011CD  __gptrget                          _gptrget
+C:   000011E9  ___sdcc_external_startup           _startup
+ASxxxx Linker V03.00/V05.40 + sdld,  page 35.
 Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-CONST                               00000F79    0000021F =         543. bytes (REL,CON,CODE)
+CONST                               000011ED    0000021F =         543. bytes (REL,CON,CODE)
 
-         Value  Global                             Global Defined In Module
-         -----  --------------------------------   ------------------------
-C:   00000F79  _Ascii_8x5_font                    ascii_font
-C:   0000115E  _numbers_seg                       i2c_seven_segment
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000011ED  _Ascii_8x5_font                    ascii_font
+C:   000013D2  _numbers_seg                       i2c_seven_segment
 
-ASxxxx Linker V05.50.4-SDLD,  page 36.
+ASxxxx Linker V03.00/V05.40 + sdld,  page 36.
 
 Files Linked                              [ module(s) ]
 
@@ -1430,7 +1430,7 @@ C:\Program Files\SDCC\bin\..\lib\large/libsdcc.lib
 C:\Program Files\SDCC\bin\..\lib\large/libsdcc.lib
                                           [ _startup.rel ]
 
-ASxxxx Linker V05.50.4-SDLD,  page 37.
+ASxxxx Linker V03.00/V05.40 + sdld,  page 37.
 
 User Base Address Definitions
 
